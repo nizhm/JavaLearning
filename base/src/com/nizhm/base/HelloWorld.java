@@ -7,7 +7,7 @@ import com.nizhm.base.overloading.Employee;
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        Employee employee = new Employee();
+        Employee employee = new Employee("nizhm");
         System.out.println("Hello world!" + employee.getName());
     }
 }

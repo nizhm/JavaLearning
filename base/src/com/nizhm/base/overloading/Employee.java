@@ -10,9 +10,15 @@ public class Employee {
     private double salary;
     private LocalDate hireDay;
 
-    public Employee() {
-        this.name = "unknown";
+    public Employee(String name) {
+        this.name = name;
         this.salary = 8000;
+        this.hireDay = LocalDate.now();
+    }
+
+    public Employee(String name, double salary) {
+        this.name = name;
+        this.salary = salary;
         this.hireDay = LocalDate.now();
     }
 
