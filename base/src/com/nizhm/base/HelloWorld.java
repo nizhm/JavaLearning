@@ -1,10 +1,13 @@
 package com.nizhm.base;
 
+import com.nizhm.base.overloading.Employee;
+
 /**
  * @author nizhm
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Employee employee = new Employee();
+        System.out.println("Hello world!" + employee.getName());
     }
 }
