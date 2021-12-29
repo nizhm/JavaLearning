@@ -1,13 +1,13 @@
 package com.nizhm.base;
 
-import com.nizhm.base.overloading.Employee;
+import com.nizhm.base.override.Manager;
 
 /**
  * @author nizhm
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        Employee employee = new Employee("nizhm");
-        System.out.println("Hello world!" + employee.getName());
+        Manager manager = new Manager("nizhm");
+        System.out.println(manager.getSalary());
     }
 }

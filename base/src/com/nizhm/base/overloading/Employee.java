@@ -10,6 +10,10 @@ public class Employee {
     private double salary;
     private LocalDate hireDay;
 
+    /**
+     * @description constructor overloading
+     * @author nizhm
+     * */
     public Employee(String name) {
         this.name = name;
         this.salary = 8000;
