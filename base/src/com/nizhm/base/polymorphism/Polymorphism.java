@@ -3,9 +3,14 @@ package com.nizhm.base.polymorphism;
 import com.nizhm.base.overloading.Employee;
 import com.nizhm.base.override.Manager;
 
+/**
+ * @author nizhm
+ */
 public class Polymorphism {
     /**
-     * @description variable of superclass can be assigned to both self instance and its subclass instance
+     * @description
+     *  1.variable of superclass can be assigned to both self instance and its subclass instance;
+     *  2.methods overridden within subclass will upcast to superclass;
      * @author nizhm
      * */
     public static void main(String[] args) {

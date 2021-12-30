@@ -2,6 +2,9 @@ package com.nizhm.base.override;
 
 import com.nizhm.base.overloading.Employee;
 
+/**
+ * @author nizhm
+ */
 public class Manager extends Employee {
     private double bonus;
 
@@ -28,6 +31,7 @@ public class Manager extends Employee {
      * @description override super.getSalary() method
      * @author nizhm
     **/
+    @Override
     public double getSalary() {
         return super.getSalary() + this.bonus;
     }

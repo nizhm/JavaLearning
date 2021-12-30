@@ -1,6 +1,7 @@
 package com.nizhm.base.abs;
 
 /**
+ * @author nizhm
  * @warning Abstract class can not be instantiated
  * */
 public abstract class Person {

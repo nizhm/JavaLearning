@@ -2,6 +2,9 @@ package com.nizhm.base.abs.implement;
 
 import com.nizhm.base.abs.Person;
 
+/**
+ * @author nizhm
+ */
 public class Student extends Person {
     private String major;
 
